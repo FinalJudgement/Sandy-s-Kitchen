@@ -152,7 +152,7 @@ header {
     font-size: 4rem;
     font-family: 'Great Vibes', cursive;
     text-decoration: underline;
-    margin: 4rem;
+    padding: 3rem;
     font-weight: 100;
 }
 
@@ -167,8 +167,6 @@ hr{
     display: flex;
     justify-content: space-around;
     margin: 100px 200px;
-    
-
 }
 
 .biscotti-card {
@@ -220,6 +218,54 @@ hr{
 @media only screen and (max-width: 1400px) {
 
     .product-container{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+}
+
+/* Locations area */
+.locations hr {
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, rgb(255, 255, 255)));
+
+}
+.locations {
+    background-color:#4a4a4a;
+    color: rgb(212, 207, 189)}
+
+.locations h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+    text-decoration: underline;
+    padding: 3rem;
+    font-weight: 100;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.location-card {
+    padding: 80px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.locations img {
+    width: 600px;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto 25px ;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .locations-container{
         flex-direction: column;
         align-items: center;
     
