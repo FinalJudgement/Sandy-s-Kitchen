@@ -48,6 +48,15 @@ header {
     
 }
 
+@media only screen and (max-width: 670px) {
+    header{
+        position: static;
+    }
+    #cookie { 
+        display: none;
+    }
+}
+
 .banner {
     background-image: url("../images/biscotti1.jpg");
     background-size: cover;
@@ -62,7 +71,6 @@ header {
 
 .card {
     display: inline-block;
-
     position: relative;
     background-color: rgba(211, 211, 211, 0.904);
     height: 600px;
@@ -102,4 +110,17 @@ header {
     width: 80%;
     margin: 50px auto;
     padding: 50px 0;
+}
+
+@media only screen and (max-width: 670px) {
+    .card {
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 80%;
+    }
+    .banner {
+        position: relative;
+        background-position: center;
+        padding-top: 6rem;
+    }
 }
