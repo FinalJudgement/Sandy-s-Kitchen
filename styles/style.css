@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color:#4a4a4a;
+    background-color: #dfdfdf;
+}
+
+header {
+    position: fixed;
+    background-color: #f8f8f8;
+    padding: 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px;
+    width:100%;
+   
+
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo img {
+    width: 3rem;
+    padding: 0 1rem;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color:#4a4a4a;
+    font-family: 'Great Vibes', cursive;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.main-nav li {
+    padding: 0 30px;
+    list-style: none;
+    
+}
+
+.banner {
+    background-image: url('../images/Biscotti-coffee.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 1000px;
+    width: 100%;
+    z-index: 0;
+    padding-top: 6rem;
+    
+}
+
+.card {
+    display: inline-block;
+
+    position: relative;
+    background-color: rgba(211, 211, 211, 0.904);
+    height: 600px;
+    width: 500px;
+    left: 200px;
+    top:200px;
+    z-index: 1;
+    border-radius: 20px;
+    
+}
+
+.card h2{
+    background-color: rgb(228, 228, 228);
+    font-size: 2rem;
+    padding: 20px;
+    color: rgb(70, 70, 70);
+    font-family: 'Great Vibes', cursive;
+    border-bottom: 3px solid rgb(0, 216, 0);
+
+}
+
+.card p {
+    font-size: 1.7rem;
+    padding: 15px;
+    color: rgb(53, 53, 53);
+    font-style: Italic;
+
+}
+
+.order-button {
+    background-color: rgb(197, 47, 47);
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    /* padding: 50px 100px; */
+    border-radius: 20px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px 0;
+}
