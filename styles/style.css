@@ -50,7 +50,8 @@ header {
 
 @media only screen and (max-width: 670px) {
     header{
-        position: static;
+        position: relative;
+        padding: 0;
     }
     #cookie { 
         display: none;
@@ -114,13 +115,28 @@ header {
 
 @media only screen and (max-width: 670px) {
     .card {
+        top: 0;
         left: 50%;
         transform: translate(-50%, 0%);
         width: 80%;
+        height: 400px;
+        background-color: rgba(211, 211, 211, 0.733);
     }
     .banner {
         position: relative;
+        margin-top: 2rem;
+        width: 80%;
+        height: 50%;
         background-position: center;
-        padding-top: 6rem;
+        padding: 3rem 0 3rem 0;
+        
     }
+    .order-button {
+        padding: 10px;
+        margin: 10px auto;
+    }
+}
+
+footer {
+    margin: 50px;
 }
