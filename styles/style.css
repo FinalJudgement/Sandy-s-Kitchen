@@ -130,6 +130,7 @@ header {
     .banner {
         position: relative;
         margin-top: 2rem;
+        margin: 2rem auto;
         width: 80%;
         height: 50%;
         background-position: center;
