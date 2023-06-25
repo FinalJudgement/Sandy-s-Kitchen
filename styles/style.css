@@ -270,6 +270,10 @@ hr{
         align-items: center;
     
     }
+
+    .locations img {
+        width: 100%;
+    }
 }
 
 /* Footer area */
